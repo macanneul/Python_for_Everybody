@@ -17,7 +17,7 @@ Programs written for the course
 |Name|Function|
 |---|---|
 |[00.00_Hello_World](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/00.00_Hello_World.py)|Print "Hello world!" using Python 3.|
-|[01.00_Countdown](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/01.00_Countdown.py)|Countdown from 10 with 'Blastoff' at 0.|
+|[01.00_Countdown](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/01.00_Countdown.py)|Countdown from 10 with 'Blastoff' at 0. I'll have to Google the hell out of this!|
 |[02.02_Greetings](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/02.02_Greetings.py)|Have user input his name and respond by greeting him.|
 |[02.03_Pay](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/02.03_Pay.py)|Have user enter two numbers and respond by multiplying them.|
 |[03.01_Pay](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/03.01_Pay.py)|Have user enter values for *Hours* and *Rate* and respond with *Pay*. *Hours* over 40 are paid 1.5x *Rate*.|
