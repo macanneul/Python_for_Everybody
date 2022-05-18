@@ -27,6 +27,7 @@ Programs written for the course
 |[05.02_Calc](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/05.02_Calc.py)|Got told that lists are unnecessary for the objective of [05.01_Calc](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/05.01_Calc.py).🥺 Here's an attempt to trim my code down.|
 |[06.05_Extract_Convert](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/06.05_Extract_Convert.py)|In 'X-DSPAM-Conference: 0.8475 ' extract value after ':' and convert it into a floating-point number.|
 |[07.01_Shout](https://github.com/macanneul/Python_for_Everybody/blob/0e13f520186c04b1b594e1808e6a3500cdc27764/07.01_Shout.py)|Write a program to read through [mbox-short.txt](https://github.com/macanneul/Python_for_Everybody/blob/be28e26d6705c8318db006c359128373ba2d81cc/mbox-short.txt) and print its contents (line by line) all in upper case. Prompt the user to enter file name first.|
+|[08.05_Email_Client](https://github.com/macanneul/Python_for_Everybody/blob/c7154e58dfe4bac1fcce2ef22dbf1119ccd6c9eb/08.05_Email_Client.py)|Read through mbox-short.txt to find lines that start with "From". Split each line into words and print the sender's email address. Count and print, at the end, the number of "From" lines.|
 |[]()||
 
 ---
