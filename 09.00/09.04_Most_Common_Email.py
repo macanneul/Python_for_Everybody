@@ -8,14 +8,15 @@ while True :
     try :
         with open(fname, 'r') as fhandle : 
             # Populate dictionary with { 'word' : frequency }
-            counting = {}
+            countme = {}
             for line in fhandle :
                 words = line.split()
                 # To avoid blank lines and IndexError: list index out of range
                 if len(line) < 2 or words[0] != 'From' : continue
                 # Since we know email address comes right after 'From', words[1] will work; otherwise, take a look at 09.05_Most_Common_Email.py (lines 19-22)
                 email = words[1]
-                counting[email] = counting.get(email, 0) + 1
+                # Retrieve (the old), create (the new), update (the key-value)
+                countme[email] = countme.get(email, 0) + 1
             break
     except :
         yn = input('File not found. Would you like to try again? (y/n): ')
@@ -24,10 +25,10 @@ while True :
         else :
             quit()
 
-# Find word with the highest frequency
+# Find word with the highest frequency in countme (the dictionary)
 mostmail = None
 mostfreq = None
-for (email, freq) in counting.items() :
+for (email, freq) in countme.items() :
     if mostfreq is None or freq > mostfreq :
         mostemail = email
         mostfreq = freq

@@ -8,11 +8,12 @@ while True :
     try :
         with open(fname, 'r') as fhandle : 
             # Populate dictionary with { 'word' : frequency }
-            counting = {}
+            countme = {}
             for line in fhandle :
-                words = line.split()
+                words = line.rstrip().split()
                 for word in words :
-                    counting[word] = counting.get(word, 0) + 1
+                    # Retrieve (the old), create (the new), update (the key-value)
+                    countme[word] = countme.get(word, 0) + 1
             break
     except :
         yn = input('File not found. Would you like to try again? (y/n): ')
@@ -21,10 +22,10 @@ while True :
         else :
             quit()
 
-# Find word with the highest frequency
+# Find word with the highest frequency in countme (the dictionary)
 mostword = None
 mostfreq = None
-for (word, freq) in counting.items() :
+for (word, freq) in countme.items() :
     if mostfreq is None or freq > mostfreq :
         mostword = word
         mostfreq = freq
