@@ -16,21 +16,22 @@ Programs written for the course
 
 |Name|Function|
 |---|---|
-|[00.00_Hello_World](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/00.00_Hello_World.py)|Print "Hello world!" using Python 3.|
-|[01.00_Countdown](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/01.00_Countdown.py)|Countdown from 10 with 'Blastoff' at 0. I'll have to Google the hell out of this!|
-|[02.02_Greetings](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/02.02_Greetings.py)|Have user input his name and respond by greeting him.|
-|[02.03_Pay](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/02.03_Pay.py)|Have user enter two numbers and respond by multiplying them.|
-|[03.01_Pay](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/03.01_Pay.py)|Have user enter values for *Hours* and *Rate* and respond with *Pay*. *Hours* over 40 are paid 1.5x *Rate*.|
-|[03.02_Pay](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/03.02_Pay.py)|Same as [03.01_Pay](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/03.01_Pay.py) but exit program if user enters anything other than numbers|
-|[04.06_Pay](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/04.06_Pay.py)|Rewrite [03.01_Pay](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/03.01_Pay.py) by creating a function called `computepay` which takes two parameters: `hours`, `rate`.|
-|[05.01_Calc](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/05.01_Calc.py)|Have user repeatedly enter numbers until he enters 'done'. When 'done' is entered, print the total, count, and average of the numbers.|
-|[05.02_Calc](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/05.02_Calc.py)|Got told that lists are unnecessary for the objective of [05.01_Calc](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/05.01_Calc.py).🥺 Here's an attempt to trim my code down.|
-|[06.05_Extract_Convert](https://github.com/macanneul/Python_for_Everybody/blob/cde8c939839c6f5287a5067eb9d63dfe370e6ea8/06.05_Extract_Convert.py)|In 'X-DSPAM-Conference: 0.8475 ' extract value after ':' and convert it into a floating-point number.|
-|[07.01_Shout](https://github.com/macanneul/Python_for_Everybody/blob/0e13f520186c04b1b594e1808e6a3500cdc27764/07.01_Shout.py)|Write a program to read through [mbox-short.txt](https://github.com/macanneul/Python_for_Everybody/blob/be28e26d6705c8318db006c359128373ba2d81cc/mbox-short.txt) and print its contents (line by line) all in upper case. Prompt the user to enter file name first.|
-|[08.05_Email_Client](https://github.com/macanneul/Python_for_Everybody/blob/a8bc242f938b5d8829dc264cfe7b7c4bda8f46f6/08.05_Email_Client.py)|Read through [mbox-short.txt](https://github.com/macanneul/Python_for_Everybody/blob/be28e26d6705c8318db006c359128373ba2d81cc/mbox-short.txt) to find lines that start with 'From'. Split each line into words and print the sender's email address. Count and print, at the end, the number of 'From' lines.|
-|[09.04_Most_Common_Email](https://github.com/macanneul/Python_for_Everybody/blob/7d0af52d07f6171912c1bbd131e836cfb58a90cd/09.00/09.04_Most_Common_Email.py)|Write a program to read through a mail log. Build a histogram using a dictionary to count how many messages have come from each email address. Find the most frequent email address.|
-|[09.05_Most_Common_Email](https://github.com/macanneul/Python_for_Everybody/blob/7d0af52d07f6171912c1bbd131e836cfb58a90cd/09.00/09.05_Most_Common_Email.py)|Same as [09.04_Most_Common_Email](https://github.com/macanneul/Python_for_Everybody/blob/7d0af52d07f6171912c1bbd131e836cfb58a90cd/09.00/09.04_Most_Common_Email.py) but uses regular expression to extract email address.|
+|[00.00_Hello_World](00.00_Hello_World.py)|Print "Hello world!" using Python 3.|
+|[01.00_Countdown](01.00_Countdown.py)|Countdown from 10 with 'Blastoff' at 0. I'll have to Google the hell out of this!|
+|[02.02_Greetings](02.02_Greetings.py)|Have user input his name and respond by greeting him.|
+|[02.03_Pay](02.03_Pay.py)|Have user enter two numbers and respond by multiplying them.|
+|[03.01_Pay](03.01_Pay.py)|Have user enter values for *Hours* and *Rate* and respond with *Pay*. *Hours* over 40 are paid 1.5x *Rate*.|
+|[03.02_Pay](03.02_Pay.py)|Same as [03.01_Pay](03.01_Pay.py) but exit program if user enters anything other than numbers|
+|[04.06_Pay](04.06_Pay.py)|Rewrite [03.01_Pay](03.01_Pay.py) by creating a function called `computepay` which takes two parameters: `hours`, `rate`.|
+|[05.01_Calc](05.01_Calc.py)|Have user repeatedly enter numbers until he enters 'done'. When 'done' is entered, print the total, count, and average of the numbers.|
+|[05.02_Calc](05.02_Calc.py)|Got told that lists are unnecessary for the objective of [05.01_Calc](05.01_Calc.py).🥺 Here's an attempt to trim my code down.|
+|[06.05_Extract_Convert](06.05_Extract_Convert.py)|In 'X-DSPAM-Conference: 0.8475 ' extract value after ':' and convert it into a floating-point number.|
+|[07.01_Shout](07.01_Shout.py)|Write a program to read through [mbox-short.txt](mbox-short.txt) and print its contents (line by line) all in upper case. Prompt the user to enter file name first.|
+|[08.05_Email_Client](08.05_Email_Client.py)|Read through [mbox-short.txt](mbox-short.txt) to find lines that start with 'From'. Split each line into words and print the sender's email address. Count and print, at the end, the number of 'From' lines.|
+|[09.04_Most_Common_Email](09.00/09.04_Most_Common_Email.py)|Write a program to read through a mail log. Build a histogram using a dictionary to count how many messages have come from each email address. Find the most frequent email address.|
+|[09.05_Most_Common_Email](09.00/09.05_Most_Common_Email.py)|Same as [09.04_Most_Common_Email](09.00/09.04_Most_Common_Email.py) but uses regular expression to extract email address.|
 |[09.06_Most_Common_Word](09.00/09.06_Most_Common_Word.py)|Count the frequency of each word in a file. Store it in a dictionary. Find the most common word.|
+|[10.01_Top5_Emails_wi_Tuples](10.01_Top5_Emails_wi_Tuples.py)|Same as 09.04_Most_Common_Email but print the top 5 email addresses with the most commits by creating a list of (count, email) tuples from the dictionary. Then sort the list in reverse order before printing out the results.|
 |[]()||
 
 ---
