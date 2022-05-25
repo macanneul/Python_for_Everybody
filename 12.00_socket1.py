@@ -1,5 +1,6 @@
 # This is not my code but I copied it from http://www.py4e.com/code3/socket1.py
 # to understand how sockets and simple web browsers work.
+# `urllib` hides all of this.
 
 import socket
 
