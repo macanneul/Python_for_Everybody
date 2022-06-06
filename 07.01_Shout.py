@@ -11,7 +11,7 @@ while True :
                 # Strip /n from end of line and print the line ALL CAPS
                 print(line.upper().rstrip())
             break
-    except :
+    except FileNotFoundError :
         yn = input('File not found. Would you like to try again? (y/n): ')
         if yn == 'y' :
             continue
