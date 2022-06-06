@@ -2,13 +2,15 @@
 
 try :                   # Try to convert h to float
     h = float(input('Enter hours: '))
-except :
+# Specified exception per suggestion
+except ValueError :
     print('Error, please enter numeric input')
     quit()
 
 try :                   # Try to convert r to float
     r = float(input('Enter rate:  '))
-except :
+# Specified exception per suggestion
+except ValueError :
     print('Error, please enter numeric input')
     quit()
 
