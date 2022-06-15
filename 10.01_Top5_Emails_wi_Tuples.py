@@ -36,7 +36,7 @@ for (email, freq) in countme.items() :
     tpl.append( (freq, email) )
 # Note: sorted() returns a sorted list, whereas sort() only returns None
 tpl = sorted(tpl, reverse = True)
-# The line below should also work by compressing lines 34-38
+# The line below should also work in place of lines 34-38
 # tpl = sorted( [ (freq, email) for (email, freq) in countme.items() ], reverse = True)
 
 print('Here are the top 5 email addresses and their number of commits:')

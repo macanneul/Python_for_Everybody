@@ -25,4 +25,4 @@ for line in fhandle :
     if char_count > 3000 : break
     print(line)
 
-print('\nNumber of characters in this document (maximum 3000):',char_count, '(of which', spc_count, 'are spaces)')
+print(f'\nNumber of characters in this document (maximum 3000): {char_count} (of which {spc_count} are spaces)')

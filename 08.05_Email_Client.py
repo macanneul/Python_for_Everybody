@@ -9,9 +9,9 @@ with open('mbox-short.txt', 'r') as fhandle :
         # Strip /n at line's end and split
         wd = line.rstrip().split()
         # To avoid blank lines and IndexError: list index out of range
-        # (Tried len(line)<1 and still got Traceback due to /n in blank lines)
+        # (Tried len(line)<1 below and still got Traceback due to /n in blank lines)
         if len(line) < 2 or wd[0] != 'From' : continue
         print(wd[1])
         fl = fl + 1
 
-print('Lines starting with "From":', fl)
+print(f'Lines starting with "From": {fl}')
