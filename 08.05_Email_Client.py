@@ -12,6 +12,6 @@ with open('mbox-short.txt', 'r') as fhandle :
         # (Tried len(line)<1 below and still got Traceback due to /n in blank lines)
         if len(line) < 2 or wd[0] != 'From' : continue
         print(wd[1])
-        fl = fl + 1
+        fl += 1
 
 print(f'Lines starting with "From": {fl}')
