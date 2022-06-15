@@ -7,7 +7,7 @@ regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
 
 while True :
     fname = input('Enter a file name: ')
-    # Deal with traceback due to file not found
+    # Deal with traceback due to FileNotFoundError
     try :
         with open(fname, 'r') as fhandle : 
             # Populate dictionary with { 'word' : frequency }
@@ -21,7 +21,7 @@ while True :
                 # Retrieve (the old), create (the new), update (the key-value)
                 countme[email] = countme.get(email, 0) + 1
             break
-    except :
+    except FileNotFoundError :
         yn = input('File not found. Would you like to try again? (y/n): ')
         if yn == 'y' :
             continue

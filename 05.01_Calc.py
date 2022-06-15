@@ -13,7 +13,7 @@ while True :
     try :
         num = float(num)
         num_list.append(num)
-    except :
+    except ValueError :
         print('Invalid input')
         
 # Calculate after loop breaks

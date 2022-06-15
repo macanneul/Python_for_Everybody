@@ -13,7 +13,7 @@ while True :
         break
     try :
         num = float(num)
-    except :
+    except ValueError :
         print('Invalid input')
         continue
     ttl = ttl + num
