@@ -2,6 +2,7 @@
 # Build a histogram using a dictionary to count how many messages have come from each email address
 # Find the most frequent email address
 
+# Set up what we need for regular expression
 import re
 regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
 
