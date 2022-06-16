@@ -15,7 +15,7 @@ while True :
                     # Retrieve (the old), create (the new), update (the key-value)
                     countme[word] = countme.get(word, 0) + 1
             break
-    except :
+    except FileNotFoundError :
         yn = input('File not found. Would you like to try again? (y/n): ')
         if yn == 'y' :
             continue
