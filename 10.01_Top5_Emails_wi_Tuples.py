@@ -2,6 +2,7 @@
 # by creating a list of (count, email) tuples from the dictionary.
 # Then sort the list in reverse order before printing out the results.
 
+# Set up what we need for regular expression
 import re
 regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
 
@@ -26,6 +27,7 @@ while True :
         if yn == 'y' :
             continue
         else :
+            print('Goodbye!')
             quit()
 
 # Create a list of tuples from countme (the dictionary)
@@ -42,4 +44,4 @@ tpl = sorted(tpl, reverse = True)
 print('Here are the top 5 email addresses and their number of commits:')
 for (freq, email) in tpl[ : 5] :
     print(email, freq)
-print('--- Done ---')
+print('Done!')
