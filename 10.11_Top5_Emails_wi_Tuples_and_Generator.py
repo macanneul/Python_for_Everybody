@@ -33,7 +33,7 @@ def start_prog() :
         countme[email] = countme.get(email, 0) + 1
 
 start_prog()
-# Find word with the highest frequency in countme
+# Sort to find top 5 frequent emails in countme
 tpl = sorted( [ (freq, email) for (email, freq) in countme.items() ], reverse = True)
 
 print('Here are the top 5 email addresses and their number of commits:')
