@@ -32,13 +32,13 @@ while True :
 
 # Create a list of tuples from countme (the dictionary)
 
-# Find word with the highest frequency in countme
 tpl = list()
 for (email, freq) in countme.items() :
     tpl.append( (freq, email) )
+# Find top 5 frequent emails by sorting countme
 # Note: sorted() returns a sorted list, whereas sort() only returns None
 tpl = sorted(tpl, reverse = True)
-# The line below should also work in place of lines 34-38
+# The line below should also work in place of lines 35-40
 # tpl = sorted( [ (freq, email) for (email, freq) in countme.items() ], reverse = True)
 
 print('Here are the top 5 email addresses and their number of commits:')
