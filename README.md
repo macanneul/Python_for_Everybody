@@ -31,7 +31,8 @@ Programs written for the course
 |[09.04_Most_Common_Email](09.00/09.04_Most_Common_Email.py)|Write a program to read through a mail log. Build a histogram using a dictionary to count how many messages have come from each email address. Find the most frequent email address.|
 |[09.05_Most_Common_Email](09.00/09.05_Most_Common_Email.py)|Same as [09.04_Most_Common_Email](09.00/09.04_Most_Common_Email.py) but uses regular expression to extract email address.|
 |[09.06_Most_Common_Word](09.00/09.06_Most_Common_Word.py)|Count the frequency of each word in a file. Store it in a dictionary. Find the most common word.|
-|[10.01_Top5_Emails_wi_Tuples](10.01_Top5_Emails_wi_Tuples.py)|Same as 09.04_Most_Common_Email but print the top 5 email addresses with the most commits by creating a list of (count, email) tuples from the dictionary. Then sort the list in reverse order before printing out the results.|
+|[10.01_Top5_Emails_wi_Tuples](10.01_Top5_Emails_wi_Tuples.py)|Same as [09.04_Most_Common_Email](09.00/09.04_Most_Common_Email.py) but print the top 5 email addresses with the most commits by creating a list of (count, email) tuples from the dictionary. Then sort the list in reverse order before printing out the results.|
+|[10.11_Top5_Emails_wi_Tuples_and_Generator](10.11_Top5_Emails_wi_Tuples_and_Generator.py)|Same as [10.01_Top5_Emails_wi_Tuples](10.01_Top5_Emails_wi_Tuples.py) but create a generator to enable larger mail-log processing whilst increase efficiency on RAM usage.|
 |[12.03_urllib_and_count](12.03_urllib_and_count.py)|Use `urllib` to retrieve a document from a user-input URL, display up to 3000 characters, and count the number of characters in the document (ignore header).|
 |[]()||
 
