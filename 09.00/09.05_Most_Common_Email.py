@@ -39,4 +39,4 @@ for (email, freq) in countme.items() :
         mostemail = email
         mostfreq = freq
 
-print('The most common email address is "' + mostemail + '" you received', mostfreq, 'email(s) from it.')
+print(f'The most common email address is {mostemail} you received {mostfreq} email(s) from it.')
