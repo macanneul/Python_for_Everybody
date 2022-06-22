@@ -13,7 +13,7 @@ def open_file_reader(fname) :
             for line in fhandle :
                 yield line
     except FileNotFoundError :
-        yn = input('File not found. Would you like to try again? (y/n): ')
+        yn = input('File not found. Would you like to try again? (y/n): ').strip().lower()
         if yn == 'y' :
             start_prog()
         else :

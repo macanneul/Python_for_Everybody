@@ -23,7 +23,7 @@ while True :
                 countme[email] = countme.get(email, 0) + 1
             break
     except FileNotFoundError :
-        yn = input('File not found. Would you like to try again? (y/n): ')
+        yn = input('File not found. Would you like to try again? (y/n): ').strip().lower()
         if yn == 'y' :
             continue
         else :
