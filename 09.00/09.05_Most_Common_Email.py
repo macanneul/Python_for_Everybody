@@ -31,7 +31,7 @@ while True :
         else :
             quit()
 
-# Find word with the highest frequency in countme (the dictionary)
+# Find email with the highest frequency in countme (the dictionary)
 mostmail = None
 mostfreq = None
 for (email, freq) in countme.items() :
