@@ -27,8 +27,7 @@ while True :
         if yn == 'y' :
             continue
         else :
-            print('Goodbye!')
-            quit()
+            quit(print('Goodbye!'))
 
 # Create a list of tuples from countme (the dictionary)
 tpl = list()

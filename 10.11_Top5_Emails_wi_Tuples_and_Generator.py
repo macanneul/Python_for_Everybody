@@ -17,8 +17,7 @@ def open_file_reader(fname) :
         if yn == 'y' :
             start_prog()
         else :
-            print('Goodbye!')
-            quit()
+            quit(print('Goodbye!'))
 
 # Populate countme (dictionary) with { 'word' : frequency }
 countme = {}
