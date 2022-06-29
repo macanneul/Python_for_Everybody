@@ -7,7 +7,7 @@ while True :
     url = input('Enter URL of file: ')
     try :
         fhandle = urllib.request.urlopen(url)
-    except :
+    except FileNotFoundError :
         yn = input('File not found. Would you like to try again? (y/n): ')
         if yn == 'y' :
             continue
