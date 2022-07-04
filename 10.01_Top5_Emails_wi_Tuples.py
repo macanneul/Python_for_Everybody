@@ -42,4 +42,3 @@ tpl = sorted(tpl, reverse = True)
 print('Here are the top 5 email addresses and their number of commits:')
 for (freq, email) in tpl[ : 5] :
     print(email, freq)
-print('Done!')
