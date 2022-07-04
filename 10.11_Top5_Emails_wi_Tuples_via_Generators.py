@@ -34,7 +34,7 @@ def start_prog() :
 start_prog()
 # Sort to find top 5 frequent emails in countme
 tpl = sorted( ( (freq, email) for (email, freq) in countme.items() ), reverse = True)
-
+# (swapping 2nd set of [] for () above turned a list compression into a generator expression)
 print('Here are the top 5 email addresses and their number of commits:')
 for (freq, email) in tpl[ : 5] :
     print(email, freq)
